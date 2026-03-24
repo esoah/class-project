@@ -1,0 +1,87 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+.intro {
+  /* background-color: blue; */
+  background-image: url(img/related-1.jpg);
+  background-size: cover;
+  height: 500px;
+  /* padding: 50px; */
+  padding: 15px 50px 0px 50px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+p {
+  color: #ffffff;
+  word-spacing: 12pt;
+  font-weight: 900;
+  direction: ltr;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 24pt;
+  background-color: aqua;
+}
+
+.links {
+  text-align: center;
+  /* border-color: black; */
+  border-style: double;
+  border-width: 10px;
+  border-top-color: aqua;
+  border-bottom-color: black;
+  border-right-color: blue;
+  /* border-left-color: blueviolet; */
+  border: 1px solid red;
+  margin-top: 36px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link  */
+a:visited {
+  color: green;
+}
+
+/* mouse over link  */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+.fruits {
+  border: 1px solid red;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+.fruits {
+  margin-top: 20px;
+}

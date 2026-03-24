@@ -1,0 +1,57 @@
+h1 {
+  cursor: default;
+  background-color: rgb(255, 255, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-shadow: 2px 2px red;
+}
+.first {
+  height: 200px;
+  width: 500px;
+  border: 2px solid red;
+  line-height: 50px;
+  overflow: auto;
+}
+
+.second {
+  height: 200px;
+  width: 500px;
+  border: 2px solid aqua;
+  line-height: 50px;
+  overflow: auto;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.third {
+  height: 200px;
+  width: 500px;
+  border: 2px solid green;
+  line-height: 50px;
+  overflow: auto;
+}
+
+.box {
+  position: fixed;
+  top: 500px;
+  left: 75%;
+}
+
+.rec1 {
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  box-shadow: 10px 10px 20px 20px black inset;
+}
+
+.rec2 {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  top: -80px;
+  left: 50px;
+  z-index: -1;
+}

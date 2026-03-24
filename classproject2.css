@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+header {
+  background: white;
+  padding: 15px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #4b6cff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn {
+  background: #4b6cff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 90vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("beddings.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  display: inline-block;
+  background: #4b6cff;
+  color: white;
+  padding: 12px 25px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About */
+
+.about {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+/* Services */
+
+.services {
+  padding: 80px 10%;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+/* Banner */
+
+.banner {
+  background: #4b6cff;
+  color: white;
+  text-align: center;
+  padding: 70px 10%;
+}
+
+/* Testimonials */
+
+.testimonials {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.testimonial {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Blog */
+
+.blog {
+  padding: 80px 10%;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.blog-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.blog-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Contact */
+
+.contact {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

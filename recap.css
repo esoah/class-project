@@ -1,0 +1,25 @@
+.navbar1 {
+  height: 50px;
+  width: 1500px;
+  background-color: cornflowerblue;
+}
+
+.navbar1 h3 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.mylinks {
+  display: flex;
+  margin: auto;
+  gap: 50px;
+}

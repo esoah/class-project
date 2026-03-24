@@ -1,0 +1,29 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.headline {
+  height: 600px;
+  width: 100%;
+  border: 1px solid black;
+  background-image: url(img/foodstuff.JPG);
+  box-sizing: border-box;
+}
+
+.headline h1 {
+  font-size: 58px;
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.headline h2 {
+  font-size: 36px;
+  color: white;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+}
